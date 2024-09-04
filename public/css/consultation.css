@@ -1,0 +1,105 @@
+.consultation_doctors {
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.search {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.search_input {
+    width: 80%;
+    padding: 10px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.consultation_list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.consultation_card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    box-sizing: border-box;
+    transition: transform 0.2s;
+}
+
+.consultation_card:hover {
+    transform: translateY(-5px);
+}
+
+.doctor_name {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.doctor_specialty {
+    font-size: 16px;
+    color: #777;
+    margin-bottom: 15px;
+}
+
+.availability_info {
+    margin-top: 15px;
+}
+
+.availability_heading {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.availability_times {
+    list-style-type: none;
+    padding: 0;
+    margin: 0 0 15px 0;
+}
+
+.availability_times li {
+    font-size: 14px;
+    color: #555;
+}
+
+.availability_status {
+    font-size: 14px;
+}
+
+.status_label {
+    font-weight: bold;
+}
+
+.availability_status span {
+    font-weight: bold;
+}
+
+.availability_status .available {
+    color: green;
+}
+
+.availability_status .unavailable {
+    color: red;
+}
+
+.image_name-specialty{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.image_name-specialty img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 2px solid #007bff;
+}
